@@ -1,0 +1,19 @@
+.button {
+    display: inline-flex; /* Thay đổi từ inline-block sang inline-flex để tạo điều kiện cho việc căn chỉnh nội dung bên trong nếu cần */
+    align-items: center; /* Căn chỉnh nội dung theo trục dọc */
+    justify-content: center; /* Căn chỉnh nội dung theo trục ngang */
+}
+
+button {
+    background-color: transparent;
+    margin: 0;
+    border: none;
+    font-size: 28px; /* Tăng kích thước font lên để dễ nhìn hơn */
+    color: #2E8B57;
+    transition: color 0.3s ease;
+    cursor: pointer; /* Thêm con trỏ chuột để người dùng biết đây là một phần tử có thể tương tác */
+}
+
+button:hover {
+    color: #1E7042; /* Thay đổi màu sắc khi hover để tạo sự khác biệt rõ ràng hơn */
+}

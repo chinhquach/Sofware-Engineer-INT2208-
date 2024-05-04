@@ -1,0 +1,51 @@
+.Dictionary section {  
+    max-width: 900px;  /* Tăng kích thước tối đa lên để tận dụng không gian hiển thị tốt hơn */
+    margin: 0 auto 30px; /* Gộp margin-bottom vào margin */
+    padding: 60px; /* Tăng padding để tạo không gian thoáng hơn cho nội dung */
+    border-radius: 25px; /* Tăng border-radius để làm mềm các góc hơn */
+    outline: 3px solid #2E8B57; /* Tăng độ rõ nét của outline */
+    outline-offset: -15px; /* Tăng offset để tạo hiệu ứng 3D mạnh hơn */
+    background-color: #e0ece4; /* Thay đổi màu nền để tạo sự khác biệt nhẹ nhàng hơn với màu nền chung */
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15); /* Tăng độ mờ và bản sao để tạo hiệu ứng nổi hơn */
+}
+
+.Dictionary .search {
+    margin: auto;
+    width: 60%; /* Tăng kích thước để tạo không gian nhập liệu rộng hơn */
+    height: 45px; /* Tăng kích thước để tạo không gian nhập liệu cao hơn */
+    border: 3px solid #2E8B57; /* Tăng độ rõ nét của border */
+    border-radius: 25px; /* Tăng border-radius để làm mềm các góc hơn */
+    background-color: #fff;
+    padding-left: 15px; /* Tăng padding để tạo không gian thoáng hơn cho text */
+}
+
+.Dictionary .search-button {
+    height: 45px;  /* Tăng kích thước để tạo không gian nhấp chuột rộng hơn */
+    font-size: 18px; /* Tăng kích thước font để dễ đọc hơn */
+    padding: 10px 25px;  /* Tăng padding để tạo không gian thoáng hơn cho text */
+    margin-left: 10px; /* Tăng margin để tạo không gian thoáng hơn giữa các button */
+    border-radius: 25px; /* Tăng border-radius để làm mềm các góc hơn */
+    border: none;
+    background-color: #2E8B57;
+    color: #fff;
+    text-decoration: none;
+    transition: all 200ms ease-in-out; /* Tăng thời gian chuyển đổi để tạo hiệu ứng mượt mà hơn */
+}
+
+.Dictionary .search-button:hover {
+    background-color: #1E7042; /* Thay đổi màu sắc khi hover để tạo sự khác biệt rõ ràng hơn */
+}
+
+.Dictionary .subheading {
+    font-size: 22px; /* Tăng kích thước font để dễ đọc hơn */
+    font-weight: 600; /* Tăng độ đậm của font */
+    margin-bottom: 15px; /* Tăng margin để tạo không gian thoáng hơn giữa các heading */
+    text-transform: lowercase;
+}
+
+.Dictionary .suggestions {
+    margin-top: 15px; /* Tăng margin để tạo không gian thoáng hơn giữa các suggestion */
+    font-size: 14px; /* Tăng kích thước font để dễ đọc hơn */
+    font-style: italic;
+    color: #333; /* Thay đổi màu sắc để tạo sự khác biệt rõ ràng hơn với màu nền */
+}

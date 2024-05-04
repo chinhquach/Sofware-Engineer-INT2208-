@@ -1,0 +1,36 @@
+.Meaning h3 {
+    font-size: 38px; /* Tăng kích thước font để tạo sự nổi bật hơn */
+    line-height: 1.6; /* Tăng line-height để cải thiện khả năng đọc */
+    font-weight: 800;
+    margin-bottom: 5px; /* Tăng margin để tạo không gian thoáng hơn giữa các heading */
+    color: #2E8B57;
+}
+
+.Meaning hr {
+    margin: 10px 0 20px 0; /* Tăng margin để tạo không gian thoáng hơn giữa các phần tử */
+    width: 100%;
+    border: 2px solid #277047; /* Tăng độ rõ nét của border */
+}
+
+.definition {
+    text-align: left; /* Rõ ràng hơn so với 'start' */
+    font-size: 20px; /* Tăng kích thước font để dễ đọc hơn */
+    font-weight: 600; /* Tăng độ đậm của font */
+    margin-top: 30px; /* Tăng margin để tạo không gian thoáng hơn */
+}
+
+.definition span {
+    display: inline-block;
+    padding-right: 10px; /* Tăng padding để tạo không gian rõ ràng hơn giữa các span */
+    line-height: 1.2; /* Tăng line-height để cải thiện khả năng đọc */
+    font-weight: 800; /* Tăng độ đậm của font */
+}
+
+.example {
+    font-size: 18px; /* Tăng kích thước font để dễ đọc hơn */
+    font-weight: 400; /* Tăng độ đậm của font */
+    font-style: italic;
+    opacity: 0.85; /* Tăng độ mờ để tạo sự khác biệt rõ ràng hơn */
+    text-transform: lowercase;
+    margin-top: 10px; /* Tăng margin để tạo không gian thoáng hơn */
+}

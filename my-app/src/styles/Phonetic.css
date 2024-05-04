@@ -1,0 +1,18 @@
+.Phonetic a {
+    text-decoration: underline; /* Thêm gạch chân để tạo sự khác biệt rõ ràng hơn cho liên kết */
+    margin-right: 20px; /* Tăng margin để tạo không gian thoáng hơn giữa các liên kết */
+}
+
+.Phonetic {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; /* Thay đổi từ center sang space-around để phân phối đều không gian giữa các item */
+}
+
+.Phonetic .text {
+    opacity: 0.6; /* Tăng độ mờ để tạo sự khác biệt rõ ràng hơn */
+    font-size: 28px; /* Tăng kích thước font để dễ đọc hơn */
+    line-height: 1.6; /* Tăng line-height để cải thiện khả năng đọc */
+    margin-left: 15px; /* Tăng margin để tạo không gian thoáng hơn giữa các text */
+}

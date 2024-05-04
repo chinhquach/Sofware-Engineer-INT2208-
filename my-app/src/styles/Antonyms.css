@@ -1,0 +1,15 @@
+.antonyms {
+    font-size: 16px; /* Tăng kích thước font lên để dễ đọc hơn */
+    font-weight: 500; /* Tăng độ đậm của font */
+    text-align: left; /* Rõ ràng hơn so với 'start' */
+    margin-top: 20px; /* Tăng khoảng cách lên để tạo không gian thoáng hơn */
+    color: #333; /* Thêm màu sắc cho text */
+}
+
+.antonyms span {
+    display: inline-block;
+    padding-right: 10px; /* Tăng padding để tạo không gian rõ ràng hơn giữa các span */
+    line-height: 1.5; /* Tăng line-height để cải thiện khả năng đọc */
+    font-weight: 800; /* Tăng độ đậm của font */
+    color: #666; /* Thêm màu sắc cho text */
+}

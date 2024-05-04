@@ -1,0 +1,36 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  background-color: #f5f5f5; /* Thêm màu nền nhẹ để tạo sự khác biệt */
+}
+
+.App h1 {
+  font-size: 80px; /* Tăng kích thước font để tạo sự nổi bật hơn */
+  font-weight: 900;
+  margin: 40px 0; /* Tăng margin để tạo không gian thoáng hơn */
+  text-align: center;
+  letter-spacing: 4px; /* Tăng letter-spacing để tạo sự rõ ràng hơn */
+  -webkit-text-stroke: 3px #dde9e2; /* Tăng độ rõ nét của text stroke */
+  color: #2E8B57;
+}
+
+.App footer {
+  font-size: 18px; /* Tăng kích thước font để dễ đọc hơn */
+  font-weight: 600; /* Tăng độ đậm của font */
+  margin: 10px 0; /* Tăng margin để tạo không gian thoáng hơn */
+  text-align: center;
+  color: #000;
+}
+
+.App a {
+  color: #2E8B57;
+  text-decoration: underline; /* Thêm gạch chân để tạo sự khác biệt rõ ràng cho liên kết */
+}
+
+.App a:hover {
+  color: #1e6640; /* Thay đổi màu khi hover để tạo sự khác biệt rõ ràng hơn */
+}
