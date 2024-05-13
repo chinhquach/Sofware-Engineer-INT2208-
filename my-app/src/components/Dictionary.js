@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Results from "./Results";
@@ -39,7 +38,9 @@ export default function Dictionary(props) {
 
   function handleSubmit(event) {
     event.preventDefault();
-    search();
+    if (keyword) { // Only search when keyword is not empty
+      search();
+    }
   }
 
   useEffect(() => {
@@ -56,7 +57,7 @@ export default function Dictionary(props) {
     <div className="Dictionary">
       {loaded ? (
         <section>
-          <div className="subheading">What word piques your interest?</div>
+          <div className="subheading">What is your word?</div>
           <form onSubmit={handleSubmit}>
             <input
               className="search"

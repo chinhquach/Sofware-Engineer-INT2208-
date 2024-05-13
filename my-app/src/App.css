@@ -5,32 +5,36 @@
   justify-content: center;
   min-height: 100vh;
   text-align: center;
-  background-color: #f5f5f5; /* Thêm màu nền nhẹ để tạo sự khác biệt */
+  background: linear-gradient(45deg, #f5f5f5, #dde9e2); /* Thay đổi màu nền thành gradient */
 }
 
 .App h1 {
-  font-size: 80px; /* Tăng kích thước font để tạo sự nổi bật hơn */
+  font-size: 80px;
   font-weight: 900;
-  margin: 40px 0; /* Tăng margin để tạo không gian thoáng hơn */
+  margin: 40px 0;
   text-align: center;
-  letter-spacing: 4px; /* Tăng letter-spacing để tạo sự rõ ràng hơn */
-  -webkit-text-stroke: 3px #dde9e2; /* Tăng độ rõ nét của text stroke */
+  letter-spacing: 4px;
+  -webkit-text-stroke: 3px #dde9e2;
   color: #2E8B57;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Thêm bóng đen cho text */
 }
 
 .App footer {
-  font-size: 18px; /* Tăng kích thước font để dễ đọc hơn */
-  font-weight: 600; /* Tăng độ đậm của font */
-  margin: 10px 0; /* Tăng margin để tạo không gian thoáng hơn */
+  font-size: 18px;
+  font-weight: 600;
+  margin: 10px 0;
   text-align: center;
   color: #000;
+  background-color: #dde9e2; /* Thêm màu nền cho footer */
+  padding: 10px; /* Thêm padding cho footer */
 }
 
 .App a {
   color: #2E8B57;
-  text-decoration: underline; /* Thêm gạch chân để tạo sự khác biệt rõ ràng cho liên kết */
+  text-decoration: underline;
+  transition: color 0.5s ease; /* Thêm hiệu ứng chuyển đổi màu sắc */
 }
 
 .App a:hover {
-  color: #1e6640; /* Thay đổi màu khi hover để tạo sự khác biệt rõ ràng hơn */
+  color: #1e6640;
 }

@@ -1,6 +1,6 @@
 
 import Dicionary from "./components/Dictionary";
-
+import login from "./components/Login";
 
 import './App.css';
 
@@ -12,7 +12,7 @@ function App() {
           <h1 className="heading">Dictionary</h1>
         </header>
         <main>
-          <Dicionary defaultKeyword="aesthetic"/>
+          <Dicionary defaultKeyword="hello"/>
         </main>
         <footer className="mt-5 footer">
         

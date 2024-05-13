@@ -1,9 +1,14 @@
+:root {
+    --main-color: #382323;
+    --span-color: #666;
+}
+
 .antonyms {
-    font-size: 16px; /* Tăng kích thước font lên để dễ đọc hơn */
+    font-size: 1rem; /* Sử dụng rem để font size thích ứng với kích thước màn hình */
     font-weight: 500; /* Tăng độ đậm của font */
     text-align: left; /* Rõ ràng hơn so với 'start' */
     margin-top: 20px; /* Tăng khoảng cách lên để tạo không gian thoáng hơn */
-    color: #333; /* Thêm màu sắc cho text */
+    color: var(--main-color); /* Sử dụng biến CSS */
 }
 
 .antonyms span {
@@ -11,5 +16,17 @@
     padding-right: 10px; /* Tăng padding để tạo không gian rõ ràng hơn giữa các span */
     line-height: 1.5; /* Tăng line-height để cải thiện khả năng đọc */
     font-weight: 800; /* Tăng độ đậm của font */
-    color: #666; /* Thêm màu sắc cho text */
+    color: var(--span-color); /* Sử dụng biến CSS */
+    transition: color 0.3s ease, font-weight 0.3s ease; /* Thêm transition cho color và font-weight */
+}
+
+.antonyms span:hover {
+    color: #000; /* Thay đổi màu sắc khi hover */
+    font-weight: 900; /* Tăng độ đậm của font khi hover */
+}
+
+@media (min-width: 768px) {
+    .antonyms {
+        font-size: 18px; /* Tăng kích thước font cho màn hình lớn hơn */
+    }
 }
