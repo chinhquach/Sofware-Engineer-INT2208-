@@ -1,6 +1,5 @@
 
 import Dicionary from "./components/Dictionary";
-import login from "./components/Login";
 
 import './App.css';
 

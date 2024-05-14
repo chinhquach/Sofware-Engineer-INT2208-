@@ -1,8 +1,7 @@
 .Photos img {
-    border-radius: 10px; /* Tăng border-radius để làm mềm các góc hơn */
-    transition: opacity 0.3s ease-in-out; /* Thêm transition để tạo hiệu ứng mượt mà hơn khi hover */
-}
-
-.Photos img:hover {
-    opacity: 0.6; /* Giảm độ mờ khi hover để tạo sự khác biệt rõ ràng hơn */
-}
+    border-radius: 5px;
+  }
+  
+  .Photos img:hover {
+    opacity: 0.7;
+  }

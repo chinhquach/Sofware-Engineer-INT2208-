@@ -1,35 +1,17 @@
-:root {
-    --button-color: #89898b;
-    --button-hover-color: #1c7a19a9;
-    --button-font-size: 28px;
-    --transition-speed: 0.3s;
-}
 
 .button {
-    display: inline-flex; /* Thay đổi từ inline-block sang inline-flex để tạo điều kiện cho việc căn chỉnh nội dung bên trong nếu cần */
-    align-items: center; /* Căn chỉnh nội dung theo trục dọc */
-    justify-content: center; /* Căn chỉnh nội dung theo trục ngang */
+  display: inline-block;
 }
 
 button {
-    background-color: transparent;
-    margin: 0;
-    border: none;
-    font-size: var(--button-font-size); /* Sử dụng biến CSS */
-    color: var(--button-color); /* Sử dụng biến CSS */
-    transition: color var(--transition-speed) ease;
-    cursor: pointer; /* Thêm con trỏ chuột để người dùng biết đây là một phần tử có thể tương tác */
+  background-color: transparent;
+  margin: 0;
+  border: none;
+  font-size: 25px;
+  color: #2E8B57;
+  transition: color 0.3s ease;
 }
 
 button:hover {
-    color: var(--button-hover-color); /* Sử dụng biến CSS */
-}
-
-button:focus {
-    outline: none; /* Loại bỏ đường viền mặc định khi button được focus */
-}
-
-button:active {
-    transform: scale(0.98); /* Tạo hiệu ứng nhấn khi button được click */
-    transition: transform var(--transition-speed) ease;
+  color: #277047;
 }
