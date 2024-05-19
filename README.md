@@ -16,6 +16,9 @@ npm start
 ```
 Dự án sẽ chạy ở địa chỉ http://localhost:3000.
 
+## Demo
+Xem demo ở phần video.mp4
+
 ## Cách Sử Dụng
 Để tìm kiếm một từ, hãy nhập từ đó vào ô tìm kiếm và nhấn nút "Search". Kết quả tìm kiếm sẽ hiển thị bên dưới.
 
